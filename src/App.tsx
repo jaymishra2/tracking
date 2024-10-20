@@ -14,6 +14,7 @@ function App() {
         <main className="flex-1 overflow-y-auto p-5" style={{ backgroundColor: "#dbdbdb" }}>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/tracking' element={<Home />} />
             <Route path='/admin' element={<Admin />} />
           </Routes>
         </main>
