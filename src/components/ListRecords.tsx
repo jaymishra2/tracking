@@ -43,8 +43,8 @@ export const ListRecords = (props: any) => {
           <td>{item.destinationAddress}</td>
           <td>{item.currentStatus}</td>
           <td>
-            <a className="mr-2 text-blue-600 visited:text-purple-600" href="#" onClick={() => handleEditDetails(item.consignmentNo)}>Edit</a>
-            <a className="ml-2 text-blue-600 visited:text-purple-600" href="#" onClick={() => handleDeleteDetails(item)}>Delete</a>
+            <a className="mr-2 text-blue-600 visited:text-purple-600 cursor-pointer" onClick={() => handleEditDetails(item.consignmentNo)}>Edit</a>
+            <a className="ml-2 text-blue-600 visited:text-purple-600 cursor-pointer" onClick={() => handleDeleteDetails(item)}>Delete</a>
           </td>
         </tr>)
         )}
