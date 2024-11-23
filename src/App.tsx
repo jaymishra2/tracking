@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import { Admin } from './components/Admin';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="flex flex-col h-screen">
